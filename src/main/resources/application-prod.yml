@@ -1,0 +1,21 @@
+debug: true
+spring:
+
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+
+  datasource:
+    url: ${PROD_DB_URL}
+    username: ${PROD_DB_USERNAME}
+    password: ${PROD_DB_PASSWORD}
+
+  stripe:
+    api.key: ${PROD_STRIPE_API}
+    public.key: ${PROD_STRIPE_PUBLIC}
+
+  algolia:
+    api.key: ${PROD_ALGOLIA_API}
+    name: ${PROD_ALGOLIA_NAME}
+
