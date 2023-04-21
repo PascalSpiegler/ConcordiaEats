@@ -2,11 +2,12 @@ package com.jtspringproject.JtSpringProject;
 import com.jtspringproject.JtSpringProject.service.ProductService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
 import java.util.List;
 
 
-@SpringBootApplication
+@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class })
 public class JtSpringProjectApplication {
 	private static ProductService productService = null;
 
