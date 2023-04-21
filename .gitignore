@@ -1,0 +1,16 @@
+JtProject/target/
+JtProject/bin/
+JtProject/.metadata/
+
+### Java ###
+# Compiled class file
+*.class
+
+### Eclipse ###
+.metadata/
+
+### IntelliJ IDEA ###
+.idea/
+
+### Misc ###
+*.DS_Store
