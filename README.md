@@ -1,4 +1,4 @@
-# Concordia Eats (COMP 5541 Final Project)
+# ConcordiaEats
 
 
 ## Forked from [E-commerce-project-springBoot](https://github.com/jaygajera17/E-commerce-project-springBoot)
